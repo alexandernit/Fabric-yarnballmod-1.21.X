@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "yarnballmod",
+	"version": "${version}",
+	"name": "Yarn Ball Mod",
+	"description": "Yarn Ball Mod by Sourdough",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/alexandernit/Fabrix-yarnballmod-1.21.X",
+		"sources": "https://github.com/alexandernit/Fabric-yarnballmod-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/yarnballmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sourdough.yarnballmod.YarnBallMod"
+		],
+		"fabric-datagen": [
+			"net.sourdough.yarnballmod.YarnBallModDataGenerator"
+		],
+        "client": [
+          "net.sourdough.yarnballmod.YarnBallmodClient"
+        ]
+	},
+	"mixins": [
+		"yarnballmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
