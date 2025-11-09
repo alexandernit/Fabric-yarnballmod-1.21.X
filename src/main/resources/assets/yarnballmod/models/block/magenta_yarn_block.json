@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "yarnballmod:block/magenta_yarn_block"
+  }
+}

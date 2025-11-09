@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "yarnballmod:block/blue_yarn_block"
+    }
+  }
+}

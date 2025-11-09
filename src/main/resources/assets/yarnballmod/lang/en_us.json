@@ -16,5 +16,25 @@
   "item.yarnballmod.purple_yarn_ball": "Purple Yarn Ball",
   "item.yarnballmod.red_yarn_ball": "Red Yarn Ball",
   "item.yarnballmod.white_yarn_ball": "White Yarn Ball",
-  "item.yarnballmod.yellow_yarn_ball": "Yellow Yarn Ball"
+  "item.yarnballmod.yellow_yarn_ball": "Yellow Yarn Ball",
+
+  "block.yarnballmod.black_yarn_block": "Black Yarn Block",
+  "block.yarnballmod.blue_yarn_block": "Blue Yarn Block",
+  "block.yarnballmod.brown_yarn_block": "Brown Yarn Block",
+  "block.yarnballmod.cyan_yarn_block": "Cyan Yarn Block",
+  "block.yarnballmod.green_yarn_block": "Green Yarn Block",
+  "block.yarnballmod.grey_yarn_block": "Grey Yarn Block",
+  "block.yarnballmod.light_blue_yarn_block": "Light Blue Yarn Block",
+  "block.yarnballmod.light_grey_yarn_block": "Light Grey Yarn Block",
+  "block.yarnballmod.lime_yarn_block": "Lime Yarn Block",
+  "block.yarnballmod.magenta_yarn_block": "Magenta Yarn Block",
+  "block.yarnballmod.orange_yarn_block": "Orange Yarn Block",
+  "block.yarnballmod.pink_yarn_block": "Pink Yarn Block",
+  "block.yarnballmod.purple_yarn_block": "Purple Yarn Block",
+  "block.yarnballmod.red_yarn_block": "Red Yarn Block",
+  "block.yarnballmod.white_yarn_block": "White Yarn Block",
+  "block.yarnballmod.yellow_yarn_block": "Yellow Yarn Block",
+
+  "itemgroup.yarn_ball_items.yarn_ball_items": "Yarn Ball Items",
+  "itemgroup.yarn_ball_items.yarn_ball_blocks": "Yarn Ball Blocks"
 }
