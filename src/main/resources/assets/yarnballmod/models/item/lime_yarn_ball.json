@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yarnballmod:item/lime_yarnball"
+  }
+}

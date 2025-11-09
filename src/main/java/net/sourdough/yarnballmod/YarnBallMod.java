@@ -2,6 +2,7 @@ package net.sourdough.yarnballmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sourdough.yarnballmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class YarnBallMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registerModItems();
 	}
 }
