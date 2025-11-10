@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.sourdough.yarnballmod.YarnBallMod;
 import net.sourdough.yarnballmod.block.ModBlocks;
 
+//adds custom Item Group for YarnBall and YarnBallBlock
 public class ModItemGroups {
 
     public static final ItemGroup YARN_BALL_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
