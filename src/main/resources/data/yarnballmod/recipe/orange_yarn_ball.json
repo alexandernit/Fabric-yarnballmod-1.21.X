@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "yarnballmod:orange_yarn_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "yarnballmod:orange_yarn_ball"
+  }
+}
