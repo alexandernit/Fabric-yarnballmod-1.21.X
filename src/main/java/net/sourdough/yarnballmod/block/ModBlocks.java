@@ -17,52 +17,52 @@ public class ModBlocks {
     // Add Yarn Blocks
     // make yarn block have wool sound
     public static final Block BLACK_YARN_BLOCK = registerBlock("black_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block BLUE_YARN_BLOCK = registerBlock("blue_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block BROWN_YARN_BLOCK = registerBlock("brown_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block CYAN_YARN_BLOCK = registerBlock("cyan_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block GREY_YARN_BLOCK = registerBlock("grey_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block GREEN_YARN_BLOCK = registerBlock("green_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block LIGHT_BLUE_YARN_BLOCK = registerBlock("light_blue_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block LIGHT_GREY_YARN_BLOCK = registerBlock("light_grey_yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block LIME_YARN_BLOCK = registerBlock("lime_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block MAGENTA_YARN_BLOCK = registerBlock("magenta_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block ORANGE_YARN_BLOCK = registerBlock("orange_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block PINK_YARN_BLOCK = registerBlock("pink_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block PURPLE_YARN_BLOCK = registerBlock("purple_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block RED_YARN_BLOCK = registerBlock("red_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block WHITE_YARN_BLOCK = registerBlock("white_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     public static final Block YELLOW_YARN_BLOCK = registerBlock("yellow_yarn_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(4f)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(1f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
