@@ -49,7 +49,7 @@ public class KnittingNeedleItem extends Item {
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         World world = context.getWorld();
-        Block clickedBlock = context.getBlockState(context.getBlockPos()).getBlock();
+        Block clickedBlock = context.getWorld().getBlockState(context.getBlockPos()).getBlock();
 
         // check
         if (KNITTING_NEEDLE_MAP.containsKey(clickedBlock)) {
@@ -63,7 +63,7 @@ public class KnittingNeedleItem extends Item {
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
-                world.playSound(null, context.getBlockPos()), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS;
+                world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
             }
         }
 
