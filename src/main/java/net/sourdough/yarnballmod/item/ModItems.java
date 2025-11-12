@@ -7,10 +7,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sourdough.yarnballmod.YarnBallMod;
+import net.sourdough.yarnballmod.item.custom.KnittingNeedleItem;
 
 public class ModItems {
 
-    //own idea
+    // Wool Balls
     public static final Item BLACK_YARN_BALL = registerItem("black_yarn_ball", new Item(new Item.Settings()));
     public static final Item BLUE_YARN_BALL = registerItem("blue_yarn_ball", new Item(new Item.Settings()));
     public static final Item BROWN_YARN_BALL = registerItem("brown_yarn_ball", new Item(new Item.Settings()));
@@ -26,6 +27,9 @@ public class ModItems {
     public static final Item RED_YARN_BALL = registerItem("red_yarn_ball", new Item(new Item.Settings()));
     public static final Item WHITE_YARN_BALL = registerItem("white_yarn_ball", new Item(new Item.Settings()));
     public static final Item YELLOW_YARN_BALL = registerItem("yellow_yarn_ball", new Item(new Item.Settings()));
+
+    // Knitting Needles
+    public static final Item KNITTING_NEEDLES = registerItem("knitting_needles", new KnittingNeedleItem(new Item.Settings().maxCount(32)));
 
 
     private static Item registerItem(String name, Item item) {

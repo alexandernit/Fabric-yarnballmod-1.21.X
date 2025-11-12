@@ -45,7 +45,7 @@ public class KnittingNeedleItem extends Item {
         super(settings);
     }
 
-    // CHECK THIS AGAIN!
+    // Change Block on use with knitting needles
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         World world = context.getWorld();
@@ -53,16 +53,18 @@ public class KnittingNeedleItem extends Item {
 
         // check
         if (KNITTING_NEEDLE_MAP.containsKey(clickedBlock)) {
-            // what if we are on server
+            // are we on server
             if (!world.isClient) {
                 // we are on the server
 
                 //change the block at this position
                 world.setBlockState(context.getBlockPos(), KNITTING_NEEDLE_MAP.get(clickedBlock).getDefaultState());
 
+                // damage knitting needles
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
+                // play a sound
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
             }
         }

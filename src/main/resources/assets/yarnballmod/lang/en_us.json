@@ -36,5 +36,6 @@
   "block.yarnballmod.yellow_yarn_block": "Yellow Yarn Block",
 
   "itemgroup.yarn_ball_items.yarn_ball_items": "Yarn Ball Items",
-  "itemgroup.yarn_ball_items.yarn_ball_blocks": "Yarn Ball Blocks"
+  "itemgroup.yarn_ball_items.yarn_ball_blocks": "Yarn Ball Blocks",
+  "item.yarnballmod.knitting_needles": "Knitting Needles"
 }

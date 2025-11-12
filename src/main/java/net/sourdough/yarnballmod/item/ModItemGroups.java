@@ -33,6 +33,8 @@ public class ModItemGroups {
                         entries.add(ModItems.YELLOW_YARN_BALL);
                         entries.add(ModItems.PURPLE_YARN_BALL);
                         entries.add(ModItems.RED_YARN_BALL);
+
+                        entries.add(ModItems.KNITTING_NEEDLES);
                     }).build());
 
     public static final ItemGroup YARN_BALL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
